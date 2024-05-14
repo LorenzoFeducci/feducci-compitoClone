@@ -1,0 +1,30 @@
+    4  git clone https://github.com/sena-meucci/niceTeam.git
+    5  git log
+    6  git init
+    7  git log
+    8  ls
+    9  git branch
+   10  git init
+   11  git log
+   12  git branch
+   13  ls
+   14  ls -a
+   15  git clone https://github.com/sena-meucci/progettoStampa.git
+   16  git init
+   17  git config user.name "Lorenzo"
+   18  git config user.email lorefedu11@gmail.com
+   19  gk
+   20  git add *
+   21  git commit -m "inserito nome"
+   22  git log
+   23  git branch BugFix
+   24  git branch
+   25  git checkout BugFix
+   26  git add *
+   27  git commit -m "errore risolto in stampa"
+   28  git log
+   29  git checkout master
+   30  git merge BugFix
+   31  git branch -d BugFix
+   32  git branch
+   33  history 30 > comandi.txt
